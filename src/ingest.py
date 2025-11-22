@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 import chromadb
-from chromadb.config import Settings
 from tqdm import tqdm
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -53,12 +52,7 @@ def extract_pdf_text(pdf_path: Path):
 
 def get_chroma_client():
     CHROMA_DIR.mkdir(exist_ok=True)
-    client = chromadb.Client(
-        Settings(
-            chroma_db_impl="duckdb+parquet",
-            persist_directory=str(CHROMA_DIR)
-        )
-    )
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     return client
 
 
