@@ -15,6 +15,8 @@ This is being developed as a learning project and as part of a technical
 assignment. The goal is to:
 
 1. Ingest PDF documents into a vector database
-2. Implement a simple RAG pipeline using OpenAI + Chroma
+2. Implement a simple RAG pipeline using Ollama + Chroma, not OpenAI (due to limited free quota, in case you have unlimited, you can use it directly).
 3. Compare several prompting strategies
 4. Document evaluation and production considerations
+
+
