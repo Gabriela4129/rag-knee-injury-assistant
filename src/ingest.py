@@ -112,7 +112,7 @@ def main():
         embeddings=embeddings,
     )
 
-    client.persist()
+    # No client.persist() needed with PersistentClient
     elapsed = time.time() - start_time
     print(f"Ingestion complete in {elapsed:.2f} seconds.")
     print(f"Chroma DB directory: {CHROMA_DIR}")

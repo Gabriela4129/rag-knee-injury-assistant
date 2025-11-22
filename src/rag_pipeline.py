@@ -6,7 +6,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 import chromadb
-from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 import requests
 
@@ -39,13 +38,10 @@ class RAGResponse:
 
 
 def get_chroma_client():
-    client = chromadb.Client(
-        Settings(
-            chroma_db_impl="duckdb+parquet",
-            persist_directory=str(CHROMA_DIR)
-        )
-    )
+    CHROMA_DIR.mkdir(exist_ok=True)
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     return client
+
 
 
 class KneeRAG:
