@@ -19,6 +19,18 @@ A Retrieval-Augmented Generation (RAG) system that assists with knee injury ques
 rag-knee-injury-assistant/ │ ├── data/raw/ # PDF documents (11 clinical sources) ├── chroma_db/ # Local vector store │ ├── src/ │ ├── ingest.py # PDF ingestion + chunking + embeddings │ ├── rag_pipeline.py # Retrieval + LLM + prompts │ ├── cli.py # Interactive assistant │ ├── evaluate.py # Evaluation across 3 prompt versions │ ├── docs/ │ ├── DATA_SOURCES.md │ ├── PROMPTS.md │ ├── EVALUATION.md │ ├── PRODUCTION.md │ ├── .env # Ollama config + chunk settings ├── requirements.txt └── README.md
 ---
 
+### 🧩 Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[User CLI] --> B[RAG Pipeline<br>retrieve + generate]
+    B --> C[ChromaDB<br>Vector Store]
+    B --> D[LLM - Llama 3 via Ollama]
+    C --> E[Embeddings<br>MiniLM-L6-v2]
+    A -->|prompts| B
+    C -->|top-k results| B
+    D -->|final answer| A
+---
 # ⚙️ Quickstart
 
 ### 1. Install dependencies
