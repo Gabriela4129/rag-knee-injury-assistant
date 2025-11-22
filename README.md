@@ -5,9 +5,9 @@ A Retrieval-Augmented Generation (RAG) system that assists with knee injury ques
 ---
 
 # Features
-- Local LLM inference via **Ollama (Llama 3)*
-- Vector retrieval using **ChromaDB*  
-- Embeddings via **all-MiniLM-L6-v2*
+- Local LLM inference via *Ollama (Llama 3)*
+- Vector retrieval using *ChromaDB*  
+- Embeddings via *all-MiniLM-L6-v2*
 - Three prompt versions (zero-shot, structured, chain-of-thought)  
 - Evaluation pipeline (latency, tokens, cost)  
 - CLI-based assistant with citations
