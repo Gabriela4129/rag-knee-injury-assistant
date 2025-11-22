@@ -30,7 +30,7 @@ flowchart TD
     A -->|query| B
     C -->|retrieved chunks| B
     D -->|final answer| A
----
+```
 # ⚙️ Quickstart
 
 ### 1. Install dependencies
