@@ -35,6 +35,30 @@ rag-knee-injury-assistant/
 ├── requirements.txt
 ├── README.md
 
+        ┌──────────────┐
+        │   User CLI   │
+        └──────┬───────┘
+               │ query
+               ▼
+ ┌──────────────────────────┐
+ │     RAG Pipeline         │
+ │  (retriever + generator) │
+ └───────┬──────────────────┘
+         │ retrieves chunks
+         ▼
+ ┌───────────────────────┐
+ │    Chroma Vector DB   │
+ └───────────────────────┘
+         │ embeddings
+         ▼
+ ┌──────────────────────────┐
+ │ Sentence-Transformers    │
+ └──────────────────────────┘
+         │ prompt + context
+         ▼
+ ┌──────────────────────────┐
+ │      Llama 3 via Ollama  │
+ └──────────────────────────┘
 
 
 ---
