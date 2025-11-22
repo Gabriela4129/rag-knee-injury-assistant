@@ -67,6 +67,9 @@ The system uses **11 documents** covering:
 - ACL conservative vs surgical treatment  
 - Knee osteoarthritis management  
 
+Note: The PDFs used for ingestion are not included in the repository due to size and copyright.
+To reproduce results, place any 10–15 clinical knee-related PDFs inside data/raw/.
+
 See **docs/DATA_SOURCES.md**.
 
 ---
