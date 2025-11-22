@@ -23,12 +23,12 @@ rag-knee-injury-assistant/ │ ├── data/raw/ # PDF documents (11 clini
 
 ```mermaid
 flowchart TD
-    A[User CLI] --> B[RAG Pipeline<br>retrieve + generate]
-    B --> C[ChromaDB<br>Vector Store]
+    A[User CLI] --> B[RAG Pipeline]
+    B --> C[ChromaDB Vector Store]
     B --> D[LLM - Llama 3 via Ollama]
-    C --> E[Embeddings<br>MiniLM-L6-v2]
-    A -->|prompts| B
-    C -->|top-k results| B
+    C --> E[Sentence-Transformers Embeddings]
+    A -->|query| B
+    C -->|retrieved chunks| B
     D -->|final answer| A
 ---
 # ⚙️ Quickstart
