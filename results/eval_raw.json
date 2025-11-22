@@ -1,0 +1,842 @@
+[
+  {
+    "prompt_version": "v1",
+    "question": "What are the typical symptoms of an ACL tear compared to a meniscus tear?",
+    "answer": "According to the context, when the ACL tears, the person typically feels the knee go out of joint and often hears or feels a \"pop\". If they try to stand on the leg, the knee may feel unstable and give out. The knee usually swells a great deal immediately (within two hours). Over the next several hours, pain becomes more severe and it becomes difficult to walk [Source 2].\n\nIn contrast, meniscus tears often present with symptoms such as joint line tenderness, clicking or locking sensations, and limited range of motion [Source 1]. The symptoms may not be as dramatic as those associated with an ACL tear, but they can still significantly impact knee function and stability.\n\nNote: I did not find any specific information in the provided context that directly compares the typical symptoms of an ACL tear to a meniscus tear. However, based on general knowledge and the provided sources, I have attempted to provide a concise answer.",
+    "latency_model_only_sec": 94.19925308227539,
+    "latency_total_sec": 94.45729494094849,
+    "token_count": 1726,
+    "estimated_cost_usd": 0.001726,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 55
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "When is MRI indicated for suspected knee ligament injury?",
+    "answer": "Based on the provided context, MRI is typically not indicated as the first-line diagnostic tool for suspected knee ligament injuries in middle-aged or older patients with knee joint symptoms. Instead, a thorough clinical examination, patient history, and radiography (x-rays) are recommended to guide treatment decisions.\n\nHowever, MRI may be considered if there are \"warning flags\" or localized symptoms indicating a rarer disease that needs to be ruled out, such as osteonecrosis [Source 1]. Additionally, MRI can be useful in selected cases with refractory symptoms or when considering surgical intervention [Source 2].",
+    "latency_model_only_sec": 55.12891602516174,
+    "latency_total_sec": 57.024301290512085,
+    "token_count": 1256,
+    "estimated_cost_usd": 0.001256,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 17
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 18
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 21
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "What are the main non-surgical treatments for knee osteoarthritis?",
+    "answer": "Based on the provided context, it appears that non-surgical interventions for ACL rupture include physical therapy, rehabilitation, and patient education about instability prevention. These interventions aim to improve overall knee health, joint stability and function, development of osteoarthritis, and patient activity level.\n\nAs for knee osteoarthritis specifically, the main non-surgical treatments are not explicitly mentioned in the provided context. However, it is worth noting that a comprehensive review on conservative vs surgical treatment of anterior cruciate ligament rupture highlights the scarcity of data and limited number of high-quality studies investigating the topic (Papaleontiou et al., 2024) [Source 1 | Source 2].",
+    "latency_model_only_sec": 56.590293169021606,
+    "latency_total_sec": 58.79736876487732,
+    "token_count": 924,
+    "estimated_cost_usd": 0.000924,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 7
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 7
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "Which red-flag symptoms in knee pain require urgent referral?",
+    "answer": "According to the provided context, particularly from Source 1, there are no specific \"red-flag\" symptoms mentioned that would require urgent referral. However, it is noted that knee MRI may be indicated in selected patients with refractory symptoms or in the presence of 'warning flags' or localized symptoms indicating rarer disease that needs to be ruled out, e.g., osteonecrosis.\n\nIn terms of ACL injuries (Source 2), there is no specific mention of red-flag symptoms that would require urgent referral. However, it is mentioned that aspiration of the knee may be considered in acutely injured knees with painful, tense effusions, but this decision is based on clinical opinion rather than reliable evidence.\n\nFor meniscus tears (Source 3 and Source 4), there is no specific mention of red-flag symptoms that would require urgent referral. However, it is noted that patients with mechanical symptoms may benefit from early arthroscopic partial meniscectomy (APM) if they have significant mechanical symptoms and a clear physical exam.\n\nIn summary, while there are some general guidelines mentioned for the assessment and management of knee injuries, there are no specific \"red-flag\" symptoms identified that would require urgent referral.",
+    "latency_model_only_sec": 112.24630880355835,
+    "latency_total_sec": 114.7696921825409,
+    "token_count": 1580,
+    "estimated_cost_usd": 0.00158,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 17
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 33
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 13
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 40
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "What are the return-to-sport criteria after ACL reconstruction?",
+    "answer": "According to the provided context, the return-to-sport criteria after ACL reconstruction is to pass all return-to-sport testing AND be greater than 9 months following surgery. This is stated in both [Source 1] and [Source 2].\n\nAdditionally, Dr. Cole's physical therapy protocol requires athletes to complete a preliminary functional test at around 3.5 months and a full functional test at around 6 months. If appropriate parameters are met, they will be allowed to progress slowly back into sport-specific activities, which may take anywhere from 6-9 months. A return-to-play protocol directed to the specific sport may be provided, with no full return to play allowed until at least 9 months post-operatively (as stated in [Source 3] and [Source 4]).",
+    "latency_model_only_sec": 67.72500896453857,
+    "latency_total_sec": 69.90314483642578,
+    "token_count": 811,
+    "estimated_cost_usd": 0.000811,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 4
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 4
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "How long is typical rehabilitation after ACL surgery?",
+    "answer": "According to the provided context, the average time to return to sport after an ACL reconstruction (with or without meniscus surgery) is 9-12 months. This is mentioned in both [Source 1] and [Source 2].\n\nAdditionally, it's noted that rehabilitation typically takes place over a longer period of time, with jogging initiated at around 3-4 months post-operatively (as stated in [Source 3] and [Source 4]). The full return to play protocol is not allowed until at least 9 months post-operatively.\n\nIn summary, the typical rehabilitation after ACL surgery takes place over a period of 6-12 months, with jogging initiated around 3-4 months post-operatively.",
+    "latency_model_only_sec": 68.64968585968018,
+    "latency_total_sec": 70.31316709518433,
+    "token_count": 987,
+    "estimated_cost_usd": 0.000987,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 2
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "When should a patient with knee pain avoid high-impact sports?",
+    "answer": "According to the ESSKA Meniscus Consensus Project (Meniscus Tears) [Source 4, page 61], patients with degenerative meniscal tears and knee pain should avoid high-impact sports until they have achieved specific rehabilitation goals. These goals include good control and minimal/no pain with functional movements, including step up/down, squat, partial lunge (between 0° and 60° of knee flexion), as well as maintaining a low level of pain (<3) during and after exercise.\n\nIn general, it is recommended to avoid high-impact sports until the patient has achieved sufficient neuromuscular control and proprioception to safely perform these activities. This may involve a phased approach, starting with low-velocity, single-plane activities and gradually progressing to more complex movements [Source 2].",
+    "latency_model_only_sec": 77.3218309879303,
+    "latency_total_sec": 79.36619997024536,
+    "token_count": 1337,
+    "estimated_cost_usd": 0.001337,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 62
+      },
+      {
+        "source": "ESSKA – Meniscus Rehabilitation Consensus (2024 EU–US) .pdf",
+        "page": 8
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 63
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 61
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "What conservative treatments are recommended for partial ACL tears?",
+    "answer": "According to [Source 2], non-surgical treatment is most appropriate for grade 1 injuries, which includes partial ACL tears. This means that patients with partial ACL tears may not require surgical intervention and can be managed conservatively.\n\nAdditionally, [Source 2] suggests that higher success rates of non-surgical management are observed amongst patients with partial tears and no instability symptoms, indicating that conservative treatment is a viable option for these individuals.",
+    "latency_model_only_sec": 53.30681300163269,
+    "latency_total_sec": 56.051811933517456,
+    "token_count": 1468,
+    "estimated_cost_usd": 0.001468,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 8
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "How does age influence treatment choice for ACL injuries?",
+    "answer": "According to the AAOS Clinical Practice Guideline – Management of ACL Injuries (2022), group consensus suggests that age is an important consideration when deciding between treatment options for ACL tears. For example, a study conducted in young military personnel favored surgical reconstruction (Dunn, 2004). This implies that younger patients may be more likely to benefit from surgical treatment.\n\nAdditionally, the guideline notes that while there is no significant difference in return to activity based on three low-quality studies comparing operative and non-operative treatment options for ACL tears after reconstruction (Kovalak, 2018; Wellsandt, 2018; Wellsandt, 2020), age may still play a role in treatment choice. However, the guideline does not provide specific guidance on how age influences treatment choice, leaving clinicians to consider individual patient factors and make informed decisions based on their experience with conservative management and surgical options. [Source 1, page 34; Source 2]",
+    "latency_model_only_sec": 91.3405818939209,
+    "latency_total_sec": 93.08954405784607,
+    "token_count": 1681,
+    "estimated_cost_usd": 0.001681,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 34
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 13
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 13
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "prompt_version": "v1",
+    "question": "What complications should clinicians monitor after knee surgery?",
+    "answer": "According to the provided context, particularly from Source 1 (ESSKA – Meniscus Consensus Project), arthroscopic surgery for degenerative knee disease is associated with harm, including symptomatic deep venous thrombosis (4.13 events per 1000 procedures), pulmonary embolism, infection, and death.\n\nClinicians should monitor these complications after knee surgery, as mentioned in Source 1 [ESSKA – Meniscus Consensus Project]. Additionally, Source 2 (Conservative vs Surgical Treatment of Anterior Cruciate Ligament Rupture) highlights the importance of monitoring patient outcomes for both surgical and non-surgical management options.",
+    "latency_model_only_sec": 69.44824695587158,
+    "latency_total_sec": 71.00013089179993,
+    "token_count": 1412,
+    "estimated_cost_usd": 0.001412,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 41
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 50
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "What are the typical symptoms of an ACL tear compared to a meniscus tear?",
+    "answer": "Here's the answer:\n\nQuestion: What are the typical symptoms of an ACL tear compared to a meniscus tear?\n\nAnswer:\n- Summary: The symptoms of an ACL tear and a meniscus tear can be similar, but there are some key differences.\n- Key recommendations:\n  * ACL tear:\n    • Feeling of the knee going out of joint\n    • Hearing or feeling a \"pop\" when the injury occurs\n    • Knee swelling within two hours\n    • Increasing pain over several hours\n    • Difficulty walking due to instability\n  * Meniscus tear:\n    • May not have a distinct \"pop\" sensation\n    • Swelling and pain in the knee, but often less severe than with an ACL tear\n    • May feel like the knee is stuck or locked\n- Warnings / red flags: If you experience any of these symptoms, seek medical attention to determine the severity of the injury and develop a treatment plan.\nSources: [Source 1], [Source 2]",
+    "latency_model_only_sec": 113.96702098846436,
+    "latency_total_sec": 115.912917137146,
+    "token_count": 1856,
+    "estimated_cost_usd": 0.001856,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 55
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "When is MRI indicated for suspected knee ligament injury?",
+    "answer": "Here's the answer:\n\nQuestion: When is MRI indicated for suspected knee ligament injury?\n\nAnswer:\n- Summary: MRI may be indicated in selected cases with refractory symptoms or in the presence of 'warning flags' or symptoms indicating rarer disease that needs to be ruled out, e.g., osteonecrosis.\n- Key recommendations:\n  • In middle-aged or older patients with knee joint symptoms, MRI is typically not indicated as a first-line diagnostic tool.\n  • However, if a surgical indication is considered based on history, symptoms, clinical exam, and knee radiography, MRI may be useful to identify structural knee pathologies that may (or may not) be relevant for the symptoms.\n- Warnings / red flags: None mentioned specifically for suspected knee ligament injury.\n\nSources: [Source 1], [Source 2]",
+    "latency_model_only_sec": 85.64309310913086,
+    "latency_total_sec": 87.36971497535706,
+    "token_count": 1422,
+    "estimated_cost_usd": 0.001422,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 17
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 18
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 21
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "What are the main non-surgical treatments for knee osteoarthritis?",
+    "answer": "Here's the answer:\n\nQuestion: What are the main non-surgical treatments for knee osteoarthritis?\n\nAnswer:\n- Summary: Non-surgical interventions include physical therapy, rehabilitation, and patient education about instability prevention.\n- Key recommendations:\n  • Physical therapy\n  • Rehabilitation\n  • Patient education about instability prevention\n- Warnings / red flags: None mentioned in the provided sources.\n\nSources: [Source 2], [Source 3]",
+    "latency_model_only_sec": 52.332996129989624,
+    "latency_total_sec": 53.98739695549011,
+    "token_count": 994,
+    "estimated_cost_usd": 0.000994,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 7
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 7
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "Which red-flag symptoms in knee pain require urgent referral?",
+    "answer": "Here's my attempt at answering your question:\n\nQuestion: Which red-flag symptoms in knee pain require urgent referral?\n\nAnswer:\n- Summary: Red-flag symptoms are warning signs that indicate a more serious underlying condition, requiring prompt medical attention.\n- Key recommendations:\n  • Osteonecrosis\n• Refractory symptoms (persistent and unresponsive to conservative treatment)\n• Localized symptoms indicating rarer diseases that need to be ruled out (e.g., osteonecrosis)\n• Warning flags (unspecified in the provided sources, but generally referring to unusual or concerning symptoms)\n- Warnings / red flags:\n  • Persistent swelling\n  • Locking or instability requiring specialist assessment\nSources: [Source 1], [Source 3]\n\nPlease note that I've only used the context provided and did not include any additional information.",
+    "latency_model_only_sec": 90.76414394378662,
+    "latency_total_sec": 92.46501183509827,
+    "token_count": 1621,
+    "estimated_cost_usd": 0.001621,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 17
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 33
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 13
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 40
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "What are the return-to-sport criteria after ACL reconstruction?",
+    "answer": "Here's the answer:\n\nQuestion: What are the return-to-sport criteria after ACL reconstruction?\n\nAnswer:\n- Summary: Return to sport after ACL reconstruction should occur after passing all return to sport testing AND greater than 9 months following surgery.\n- Key recommendations:\n\t• Pass all return to sport testing\n\t• Wait at least 9 months post-operatively\n\t• May need to delay return beyond 9 months if not meeting objective criteria for return to sport\nSources: [Source 1], [Source 2]",
+    "latency_model_only_sec": 61.43999791145325,
+    "latency_total_sec": 63.24594712257385,
+    "token_count": 874,
+    "estimated_cost_usd": 0.000874,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 4
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 4
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "How long is typical rehabilitation after ACL surgery?",
+    "answer": "Here's my attempt at answering your question:\n\nQuestion: How long is typical rehabilitation after ACL surgery?\n\nAnswer:\n- Summary: The typical time to return to sport after an ACL reconstruction (with or without meniscus surgery) is 9-12 months.\n- Key recommendations:\n\t* Complete a preliminary functional test around 3.5 months post-operatively\n\t* Complete a full functional test around 6 months post-operatively\n\t* Progress slowly back into sport-specific activities, which may take anywhere from 6-9 months\n\t* No full return to play will be allowed until at least 9 months post-operatively\n- Warnings / red flags: None mentioned in the provided sources\n\nSources: [Source 1], [Source 2], [Source 3]",
+    "latency_model_only_sec": 89.96468877792358,
+    "latency_total_sec": 92.07048225402832,
+    "token_count": 1117,
+    "estimated_cost_usd": 0.001117,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 2
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "When should a patient with knee pain avoid high-impact sports?",
+    "answer": "Here is the answer to your question:\n\nQuestion: When should a patient with knee pain avoid high-impact sports?\n\nAnswer:\n- Summary: Patients with knee pain may need to modify their activities or avoid high-impact sports to prevent further injury and alleviate symptoms.\n- Key recommendations:\n  • Prevent development of meniscal damage (Source 1)\n  • Avoid post-activity swelling (Stroke test) (Source 4)\n- Warnings / red flags: None explicitly stated in the provided sources.\n\nSources: [Source 1], [Source 4]",
+    "latency_model_only_sec": 72.64848017692566,
+    "latency_total_sec": 74.31481504440308,
+    "token_count": 1401,
+    "estimated_cost_usd": 0.001401,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 62
+      },
+      {
+        "source": "ESSKA – Meniscus Rehabilitation Consensus (2024 EU–US) .pdf",
+        "page": 8
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 63
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 61
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "What conservative treatments are recommended for partial ACL tears?",
+    "answer": "Here's the answer:\n\nQuestion: What conservative treatments are recommended for partial ACL tears?\n\nAnswer:\n- Summary: Conservative management is recommended for patients with partial ACL tears and no instability symptoms, particularly those with low activity demands or children.\n- Key recommendations:\n  • Non-surgical treatment is most appropriate for grade 1 injuries.\n  • Physical therapy, rehabilitation, and patient education about instability prevention are non-surgical interventions.\n  • Higher success rates of non-surgical management are observed amongst patients with partial tears and no instability symptoms.\n- Warnings / red flags: None mentioned specifically for partial ACL tears.\n\nSources: [Source 2], [Source 3]",
+    "latency_model_only_sec": 89.394376039505,
+    "latency_total_sec": 90.91954708099365,
+    "token_count": 1631,
+    "estimated_cost_usd": 0.001631,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 8
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "How does age influence treatment choice for ACL injuries?",
+    "answer": "Here's the answer:\n\nQuestion: How does age influence treatment choice for ACL injuries?\n\n- Summary: Age is an important consideration when deciding between surgical and non-surgical treatments for ACL injuries.\n- Key recommendations:\n  * Group consensus suggests that age and activity levels are important considerations when deciding between treatment options.\n  * For example, a study conducted in young military personnel favored surgical reconstruction (Dunn 2004).\n* No significant difference in return to activity based on three low-quality studies comparing surgical and non-surgical treatments for ACL injuries (Kovalak 2018, Wellsandt 2018, Wellsandt 2020).\n\n- Warnings / red flags: None mentioned specifically.\n\nSources: [Source 1], [Source 3]",
+    "latency_model_only_sec": 103.91685676574707,
+    "latency_total_sec": 105.5481538772583,
+    "token_count": 1757,
+    "estimated_cost_usd": 0.001757,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 34
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 13
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 13
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "prompt_version": "v2",
+    "question": "What complications should clinicians monitor after knee surgery?",
+    "answer": "Here's the answer:\n\nQuestion: What complications should clinicians monitor after knee surgery?\n\nAnswer:\n- Summary: After knee arthroscopic surgery, clinicians should be aware of potential complications that may arise.\n- Key recommendations:\n  * Symptomatic deep venous thrombosis (4.13 events per 1000 procedures)\n  * Pulmonary embolism\n  * Infection\n  * Death\n* Harm was associated with interventions including arthroscopy for degenerative knee disease.\n\nSources: [Source 1], [Source 3]",
+    "latency_model_only_sec": 73.98586010932922,
+    "latency_total_sec": 75.55129504203796,
+    "token_count": 1507,
+    "estimated_cost_usd": 0.001507,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 41
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 50
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "What are the typical symptoms of an ACL tear compared to a meniscus tear?",
+    "answer": "Based on the provided sources and my expertise in sports medicine, I can conclude that the typical symptoms of an ACL tear include:\n\n* A sudden \"pop\" or feeling of instability in the knee\n* Knee swelling within a few hours\n* Pain that becomes more severe over time\n* Difficulty walking or standing due to knee instability\n\nThese symptoms are consistent with the descriptions provided in [Source 2] and [Source 3].\n\nIn contrast, meniscus tears often present with:\n\n* A feeling of catching or locking in the knee joint\n* Pain and stiffness in the knee, particularly with twisting or bending movements\n* Swelling and tenderness around the affected area\n\nThese symptoms are consistent with the descriptions provided in [Source 1] and [Source 4].\n\nIt's worth noting that while there may be some overlap between the symptoms of ACL tears and meniscus tears, a thorough physical examination and diagnostic imaging (such as MRI) can help distinguish between these two common knee injuries.",
+    "latency_model_only_sec": 122.68714499473572,
+    "latency_total_sec": 124.12432193756104,
+    "token_count": 1761,
+    "estimated_cost_usd": 0.001761,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 55
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "When is MRI indicated for suspected knee ligament injury?",
+    "answer": "Based on the provided context and sources, I would conclude that MRI is not typically indicated in the first-line workup of middle-aged or older patients with knee joint symptoms. Instead, it should be used primarily conservatively to save resources and avoid unnecessary concerns or treatments. Knee MRI may be indicated in selected cases with refractory symptoms or in the presence of \"warning flags\" or symptoms indicating rarer disease that needs to be ruled out [Source 2].",
+    "latency_model_only_sec": 62.458317041397095,
+    "latency_total_sec": 64.08988904953003,
+    "token_count": 1254,
+    "estimated_cost_usd": 0.001254,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 17
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 18
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 21
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "What are the main non-surgical treatments for knee osteoarthritis?",
+    "answer": "Based on the provided context, it appears that the main non-surgical treatments for knee osteoarthritis include physical therapy, rehabilitation, and patient education about instability prevention. This is mentioned in both [Source 3] and [Source 4], which discuss conservative management options for anterior cruciate ligament (ACL) ruptures.",
+    "latency_model_only_sec": 44.04798102378845,
+    "latency_total_sec": 45.74123001098633,
+    "token_count": 879,
+    "estimated_cost_usd": 0.000879,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 7
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 7
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "Which red-flag symptoms in knee pain require urgent referral?",
+    "answer": "Based on the provided sources, I would conclude that the following red-flag symptoms in knee pain require urgent referral:\n\n* Locking or joint locking for more than 2 seconds more often than once a week [Source 4]\n* Sudden painful sensations interpreted as \"mechanical\" in nature, potentially indicating meniscal extrusion or other structural issues [Source 3]\n\nThese symptoms are considered red flags because they may indicate the presence of a serious underlying condition that requires prompt attention and evaluation.",
+    "latency_model_only_sec": 71.59715795516968,
+    "latency_total_sec": 73.06208419799805,
+    "token_count": 1464,
+    "estimated_cost_usd": 0.001464,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 17
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 33
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 13
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 40
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "What are the return-to-sport criteria after ACL reconstruction?",
+    "answer": "Based on the provided context and sources, the return-to-sport criteria after ACL reconstruction are:\n\n* Passing all return to sport testing\n* Greater than 9 months following surgery [Source 1 | Source 2]\n\nAdditionally, it is noted that a preliminary functional test should be completed at around 3.5 months, and a full functional test at around 6 months, with slow progression into sport-specific activities if appropriate parameters are met [Source 3 | Source 4].",
+    "latency_model_only_sec": 56.93215894699097,
+    "latency_total_sec": 58.181743144989014,
+    "token_count": 774,
+    "estimated_cost_usd": 0.000774,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 4
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 4
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "How long is typical rehabilitation after ACL surgery?",
+    "answer": "Based on the provided context and sources, the typical rehabilitation period after ACL surgery is around 9-12 months, as stated in both [Source 1] and [Source 2]. Additionally, [Source 3] suggests that it's common to initiate jogging at 12 weeks post-operatively, with a gradual progression to jumping and cutting by 6 months.",
+    "latency_model_only_sec": 48.08484888076782,
+    "latency_total_sec": 49.699554204940796,
+    "token_count": 940,
+    "estimated_cost_usd": 0.00094,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 1
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 2
+      },
+      {
+        "source": "acl-return-to-sport-2.pdf",
+        "page": 2
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "When should a patient with knee pain avoid high-impact sports?",
+    "answer": "Based on the provided sources, I would recommend that patients with knee pain avoid high-impact sports until they have achieved sufficient control and minimal/no pain with functional movements, including step up/down, squat, partial lunge (between 0° and 60° of knee flexion) [Source 4]. This is because high-impact activities can exacerbate meniscal damage and other knee injuries. Additionally, the ESSKA Meniscus Consensus Project suggests that patients with degenerative meniscal tears should follow an individualized program based on their work or sports-related demands, which may include modifying exercises to avoid high-impact activities [Source 2].",
+    "latency_model_only_sec": 87.04408502578735,
+    "latency_total_sec": 88.60607600212097,
+    "token_count": 1330,
+    "estimated_cost_usd": 0.00133,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 62
+      },
+      {
+        "source": "ESSKA – Meniscus Rehabilitation Consensus (2024 EU–US) .pdf",
+        "page": 8
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 63
+      },
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 61
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "What conservative treatments are recommended for partial ACL tears?",
+    "answer": "Based on the provided context and evidence, I recommend non-surgical treatment as the most appropriate option for grade 1 injuries. This is supported by Source 2, which states that \"Non-surgical treatment is most appropriate for grade 1 injuries.\" Additionally, Source 2 notes that higher success rates of non-surgical management are observed amongst patients with partial tears and no instability symptoms.",
+    "latency_model_only_sec": 60.0009548664093,
+    "latency_total_sec": 61.33468699455261,
+    "token_count": 1484,
+    "estimated_cost_usd": 0.001484,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 8
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "How does age influence treatment choice for ACL injuries?",
+    "answer": "Age is an important consideration when deciding between surgical and non-surgical treatment options for ACL injuries. According to the AAOS Clinical Practice Guideline – Management of ACL Injuries (2022), group consensus suggests that age and activity levels are important considerations in this decision-making process [Source 1]. For example, a study conducted in young military personnel favored surgical reconstruction [Dunn (2004)]. Additionally, the guideline notes that while there is no significant difference in return to activity based on three low-quality studies comparing operative and non-operative treatment options, age and concomitant injuries should be factored into treatment decisions.",
+    "latency_model_only_sec": 88.10111832618713,
+    "latency_total_sec": 89.53203392028809,
+    "token_count": 1637,
+    "estimated_cost_usd": 0.001637,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 34
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 13
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 13
+      },
+      {
+        "source": "ACL_Injury1.pdf",
+        "page": 6
+      }
+    ]
+  },
+  {
+    "prompt_version": "v3",
+    "question": "What complications should clinicians monitor after knee surgery?",
+    "answer": "Based on the provided sources, clinicians should monitor for complications such as symptomatic deep venous thrombosis (4.13 events per 1000 procedures) [Source 1], pulmonary embolism, infection, and death after knee surgery. Additionally, patients may experience harm from arthroscopic surgery, which can be associated with a small inconsequential benefit that is limited in time and absent at one to two years after surgery [Source 1].",
+    "latency_model_only_sec": 65.61743998527527,
+    "latency_total_sec": 67.01655006408691,
+    "token_count": 1397,
+    "estimated_cost_usd": 0.001397,
+    "num_sources": 4,
+    "sources": [
+      {
+        "source": "ESSKA – Meniscus Consensus Project (Meniscus Tears) .pdf",
+        "page": 41
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "ConservativevsSurgicalTreatmentofAnteriorCruciateLigamentRupture-11.pdf",
+        "page": 2
+      },
+      {
+        "source": "AAOS Clinical Practice Guideline – Management of ACL Injuries (2022).pdf",
+        "page": 50
+      }
+    ]
+  }
+]
