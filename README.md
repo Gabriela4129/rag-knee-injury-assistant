@@ -35,38 +35,53 @@ rag-knee-injury-assistant/
 ├── requirements.txt
 ├── README.md
 
-# Quickstart
-
-### 1. Install dependencies
-pip isntall -r requirements.txt
-
-### 2. Run Ollama
-ollama run llama 3
-
-# 3. Ingest PDFs
-pyton src/inhest.py
-
-# 4. Start the assisant 
-python src/evaluate.py
-
 
 ---
 
+# ⚙️ Quickstart
+
+1. Install dependencies
+pip install -r requirements.txt
+
+2. Ensure Ollama is running
+Download Ollama from: https://ollama.com
+
+Then start the model:
+ollama run llama3
+
+3. Ingest PDFs
+Place your clinical PDFs inside:
+data/ raw/ 
+
+Then run:
+pyton src/inhest.py
+
+4. Start the CLI assisant 
+python src/cli.py
+
+5. Run Evaluation
+python src/evaluate.py
+
+This generates:
+results/eval_raw.json
+results/eval_summary.csv
+---
+
 # Dataset
-The system uses **11 documents** covering:
+The system uses 11 clinical PDF documents, covering:
+- ACL diagnosis & physical tests
+- ACL reconstruction rehabilitation
+- Return-to-sport protocols
+- Meniscus tear pathology & rehab
+- Conservative vs surgical ACL treatment
+- Knee osteoarthritis evidence-based management
 
-- ACL diagnosis  
-- ACL reconstruction rehab  
-- Return-to-sport criteria  
-- Meniscus tears  
-- Meniscus rehab  
-- ACL conservative vs surgical treatment  
-- Knee osteoarthritis management  
+Important:
+PDFs are not included in the repository due to size and copyright.
 
-Note: The PDFs used for ingestion are not included in the repository due to size and copyright.
 To reproduce results, place any 10–15 clinical knee-related PDFs inside data/raw/.
 
-See **docs/DATA_SOURCES.md**.
+See **docs/DATA_SOURCES.md** for description and documentation used.
 
 ---
 
@@ -75,18 +90,39 @@ See **docs/DATA_SOURCES.md**.
 - **v2:** Structured few-shot  
 - **v3:** Chain-of-thought  
 
-See **docs/PROMPTS.md**.
+See **docs/PROMPTS.md** for more details.
 
 ---
 
 # Evaluation
-Latency, tokens, accuracy, and cost measured across all prompts with real data.  
+Latency, tokens, and answer quality were measured for 10 clinical queries across all prompt versions.
+Results include:
+- Latency (total + LLM-only)
+- Token usage
+- Cost estimation
+- Answer structure
+- Source citations
 
-See **docs/EVALUATION.md**.
+See **docs/EVALUATION.md** for full results.
 
 ---
 
 # Production Plan
-See **docs/PRODUCTION.md**.
+See **docs/PRODUCTION.md** file outlines:
+- API architecture
+- Error handling
+- Monitoring & logging
+- Safety constraints
+- Deployment considerations
+- Future improvements.
 
+# Summary
+This project demonstrates an end-to-end RAG system:
+- Local LLM deployment
+- PDF ingestion
+- Embedding & vector search
+- Prompt engineering
+- Latency/cost evaluation
+- Documentation such as DATA_SOURCES, PROMPTS, EVALUATION, PRODUCTION
 
+It can be extended into a full clinical-assistant API or UI.
