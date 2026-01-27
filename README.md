@@ -1,4 +1,4 @@
-# Knee Injury RAG Assistant
+# Injury recovery RAG Assistant
 
 A Retrieval-Augmented Generation (RAG) system that assists with knee injury questions (ACL tears, meniscus injuries, rehabilitation, return-to-sport, and knee osteoarthritis).
 
